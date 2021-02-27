@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Paragraph Maker?</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <script src="main.js"></script>
+        <h4 class="header">Please put every first letter as Capital...</h4>
+        <div class="line"></div>
+        <div class="leftInput">
+            <h4 class="header">1st Paragraph:</h4>
+            <span>
+                <Input type="text" id="leftInputBox1" placeholder="1st Sentence..."></Input>
+                <br><br>
+                <Input type="text" id="leftInputBox2" placeholder="2nd Sentence..."></Input>
+                <br><br>
+                <Input type="text" id="leftInputBox3" placeholder="3rd Sentence..."></Input>
+                <br><br>
+                <Input type="text" id="leftInputBox4" placeholder="4th Sentence..."></Input>
+                <br><br>
+                <Input type="text" id="leftInputBox5" placeholder="5th Sentence..."></Input>
+                <br><br>
+                <Input type="text" id="leftInputBox6" placeholder="6th Sentence..."></Input>
+                <br><br>
+                <button class="button" onclick="GetParagraph1()"><span>Paragraph 1</span></button>
+            </span>
+        </div>
+
+        <div class="rightInput">
+            <h4 class="header">2nd Paragraph:</h4>
+            <span>
+                <Input type="text" id="rightInputBox1" placeholder="1st Sentence..."></Input>
+                <br><br>
+                <Input type="text" id="rightInputBox2" placeholder="2nd Sentence..."></Input>
+                <br><br>
+                <Input type="text" id="rightInputBox3" placeholder="3rd Sentence..."></Input>
+                <br><br>
+                <Input type="text" id="rightInputBox4" placeholder="4th Sentence..."></Input>
+                <br><br>
+                <Input type="text" id="rightInputBox5" placeholder="5th Sentence..."></Input>
+                <br><br>
+                <Input type="text" id="rightInputBox6" placeholder="6th Sentence..."></Input>
+                <br><br>
+                <button class="button" onclick="GetParagraph2()"><span>Paragraph 2</span></button>
+            </span>
+        </div>
+        <p class="header" id="showParagraph1"></p>
+        <p class="header" id="showParagraph2"></p>
+    </body>
+</html>
